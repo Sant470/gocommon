@@ -1,3 +1,3 @@
-module github.com/sant470/gocommon
+module github.com/Sant470/gocommon
 
 go 1.21.5

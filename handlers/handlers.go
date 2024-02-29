@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/sant470/gocommon/errors"
+	"github.com/Sant470/gocommon/errors"
 )
 
 type Handler func(rw http.ResponseWriter, r *http.Request) *errors.AppError

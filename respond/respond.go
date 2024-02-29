@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/sant470/gocommon/errors"
+	"github.com/Sant470/gocommon/errors"
 )
 
 func toJSON(rw http.ResponseWriter, status int, data interface{}) *errors.AppError {
